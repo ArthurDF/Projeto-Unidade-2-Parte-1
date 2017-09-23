@@ -9,6 +9,7 @@ using namespace std;
 class Retangulo : public Poligono{
 
 public:
+    // utilizamos um construtor para essa função
     Retangulo(float x,float y,float largura, float altura){
             // setamos todos os pontos do retângulo no sentido anti-horário
             setPoint((x-largura),(y-altura));
